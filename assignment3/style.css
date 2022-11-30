@@ -40,12 +40,14 @@
     grid-area: b;
     background-color: beige;
     padding: 2%;
+    padding-bottom: 60%;
 }
 
 #col3 {
     grid-area: c;
     background-color: azure;
     padding: 2%;
+    padding-bottom: 60%;
 }
 
 #columns {
