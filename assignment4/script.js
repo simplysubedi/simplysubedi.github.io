@@ -71,7 +71,7 @@ function findLongestWord(a) {
     return ele.length;
 
 }
-console.log("Expected output of findLongestWord([Jack,Tom,Bob]) is 4 " + myFunctionTest(4, findLongestWord(["Jack", "Tom", "Bob"])));
+//console.log("Expected output of findLongestWord([Jack,Tom,Bob]) is 4 " + myFunctionTest(4, findLongestWord(["Jack", "Tom", "Bob"])));
 
 function filterLongWords(arr, num) {
     let result = [];
@@ -87,3 +87,21 @@ function filterLongWords(arr, num) {
 }
 
 console.log("Expected output of filterLongWords([Arjun,Tom,Nepal,Bob],4) is [Arjun, Nepal]" + myFunctionTest(["Arjun", "Nepal"], filterLongWords((["Arjun", "Tom", "Nepal", "Bob"]), 4)));
+const a = [1, 3, 5, 3, 3];
+const b = a.map(function (elem, i, array) {
+    return elem * 10;
+})
+console.log(b.toString());
+const c = a.filter(function (elem, i, array) {
+    return elem === 3;
+});
+console.log(c.toString());
+const d = a.reduce(function (prevValue, elem, i, array) {
+    return prevValue * elem;
+});
+console.log(d);
+
+const d2 = a.find(function (elem) { return elem > 1; }); //3
+const d3 = a.findIndex(function (elem) { return elem > 1; }); //1
+console.log(d2);
+console.log(d3);
