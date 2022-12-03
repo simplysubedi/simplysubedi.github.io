@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ASCIIanimation</title>
+        <link rel="stylesheet" type="text/css" href="ascii.css">
+        <script src="ascii.js"></script>
+        <script src="animations.js"></script>
+    </head>
+    <body>
+        <h1>
+            CS472: ASCII Animation Viewer
+        </h1>
+        <div class="game-screen">
+            <textarea id="animation-screen" col="80" rows="20"></textarea>
+            <div class="controls">
+                <fieldset>
+                    <legend>Play Controle</legend>
+                    <button id="start">Start</button>
+                    <button disabled="disabled" id="stop">Stop</button>
+                </fieldset>
+                <fieldset>
+                    <legend>Animation:</legend>
+                    <select id="animation">
+                        <option selected="selected" value="Blank">Blank</option>
+                        <option value="Exercise">Exercise</option>
+                        <option value="Juggler">Juggler</option>
+                        <option value="Bike">Bike</option>
+                        <option value="Dive">Dive</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Size:</legend>
+                    <select id="fontsize">
+                        <option value="7pt">Tiny</option>
+                        <option value="10pt">Small</option>
+                        <option value="12pt" selected="selected">Medium</option>
+                        <option value="16pt">Large</option>
+                        <option value="24pt">Extra Large</option>
+                        <option value="32pt">XXL</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Speed:</legend>
+                    <label><input id="turbo" type="checkbox" />Turbo</label>
+                </fieldset>
+
+            </div>
+
+        </div>
+        <div id="validate">
+            <a
+                href="https://validator.w3.org/nu/?doc=https://pukarsubedi01.github.io/WAP_Assignments/lab5">
+                <img
+                    src="https://manalabs.org/img/w3c-html.png"
+                    alt="html validator"
+                    /> </a><br />
+            <a
+                href="http://jigsaw.w3.org/css-validator/validator?uri=https://pukarsubedi01.github.io/WAP_Assignments/lab5">
+                <img src="https://manalabs.org/img/w3c-css.png" alt="Valid CSS!"
+                    /></a><br />
+        </div>
+    </body>
+</html>
