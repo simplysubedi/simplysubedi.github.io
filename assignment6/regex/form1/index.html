@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="#">
+      <div class="row input-fields">
+        <label for="email">Email address</label>
+        <input
+          type="text"
+          required
+          placeholder="Enter email"
+          name="email"
+          pattern="[a-z0-9._+\-]+@[a-z0-9.\-]+\.[a-z]{2,3}"
+          title="An email must contain @ ."
+        />
+      </div>
+
+      <div class="row input-fields">
+        <label for="password">Password</label>
+        <input
+          type="text"
+          placeholder="Password"
+          name="password"
+          required
+          pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{10,}$"
+        />
+      </div>
+
+      <div class="row input-fields">
+        <label for="website">Website</label>
+        <input
+          type="text"
+          placeholder="URL"
+          name="URL"
+          required
+          pattern="https?:\/\/.+"
+        />
+      </div>
+      <div class="row">
+        <input type="checkbox" name="checkme" />
+        <label for="checkme">Check me out</label>
+      </div>
+      <div class="row">
+        <input type="submit" value="Submit" />
+      </div>
+    </form>
+  </body>
+</html>

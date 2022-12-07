@@ -1,0 +1,29 @@
+form {
+  width: 500px;
+  margin: 50px auto 0 auto;
+}
+.input-fields {
+  display: grid;
+}
+
+.row {
+  padding: 5px;
+}
+
+.row > label {
+  padding-bottom: 8px;
+  color: #4f5255;
+  font-weight: bold;
+}
+
+.row > input {
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.row > input[type="submit"] {
+  background-color: #007bff;
+  color: whitesmoke;
+  border: none;
+}
