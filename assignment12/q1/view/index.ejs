@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Current time</title>
+    <%const hour= time.getHours();%>
+        <% if (hour <18 && hour>6) { %>
+            <link rel="stylesheet" href="day.css" />
+            <%} else {
+                %>
+                <link rel="stylesheet" href="night.css" />
+                <% } %>
+                </head>
+                <body>
+                    This page was loaded at <%= time %>
+                    </body>
+                </html>
