@@ -1,225 +1,887 @@
 <!DOCTYPE html>
-<head>
-    <title>
-        Assignment1
-    </title>
-</head>
-<body>
+<html lang="en">
+    <head>
+        <met#aeb3b8et="utf-8">
+            <title>Arjun Subedi </title>
+            <meta content="width=device-width, initial-scale=1.0"
+                name="viewport">
+            <meta content="Free Website Template" name="keywords">
+            <meta content="Free Website Template" name="description">
 
-    <img src="pp.jpg" alt="My Picture"
-        width="200" height="240"/>
-    <h1>
-        <br>
-        Arjun Subedi
-    </h1>
-    <br>
-    <ul>
-        <li>Week1 Day1: <ul><li>
+            <!-- Favicon -->
+            <link href="img/favicon.ico" rel="icon">
 
-                    <a href="./index.html"
-                        target="_blank">HTML</a>
-                </li> </ul>
-        </li>
-        <li>Week1 Day2:
-            <ul>
-                <li><a
-                        href="./assignment2/aboutme/aboutme.html">About
-                        me</a>
-                </li>
-                <li><a
-                        href="./assignment2/recipe/pie.html">Recipe
-                    </a>
-                </li>
-            </ul>
+            <!-- Google Web Fonts -->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link
+                href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700&display=swap"
+                rel="stylesheet">
 
-        </li>
-        <li>Week1 Day3:
-            <ul>
-                <li><a
-                        href="./assignment3/index.html">Responsive
-                        Design</a></li>
-            </ul>
+            <!-- Icon Font Stylesheet -->
+            <link
+                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+                rel="stylesheet">
+            <link
+                href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+                rel="stylesheet">
 
-        </li>
-        <li>Week1 Day4:
-            <ul>
-                <li><a
-                        href="./assignment4/JsIntoLab.html">JsIntoLab</a></li>
-            </ul>
+            <!-- Libraries Stylesheet -->
+            <link href="lib/owlcarousel/assets/owl.carousel.min.css"
+                rel="stylesheet">
+            <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+            <link href="lib/animate/animate.min.css" rel="stylesheet">
 
-        </li>
+            <!-- Customized Bootstrap Stylesheet -->
+            <link href="css/bootstrap.min.css" rel="stylesheet">
 
-        <li>Week1 Day5:
-            <ul>
-                <li><a
-                        href="./assignment5/ascii.html">ASCIIanimation</a></li>
-            </ul>
-        </li>
-        <li>Week2 Day2:
-            <ul>
-                <li><a
-                        href="./assignment6/functional-programming">Functional
-                        programming
-                    </a>
-                </li>
-                <li><a
-                        href="./assignment6/regex/form1">Regular
-                        expressions (Form1)
-                    </a>
-                </li>
-                <li><a
-                        href="./assignment6/regex/form2">Regular expressions
-                        (Form2)
-                    </a>
-                </li>
-            </ul>
+            <!-- Template Stylesheet -->
+            <link href="css/style.css" rel="stylesheet">
+        </head>
 
-        </li>
-        <li>Week2 Day4:
-            <ul>
-                <li><div>
-                        <a
-                            href="./assignment7">Inheritance
-                        </a>
+        <body>
+            <!-- Spinner Start -->
+            <div id="spinner"
+                class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+                <div class="spinner-border text-primary"
+                    style="width: 3rem; height: 3rem;" role="status">
+                    <span class="sr-only">Loading...</span>
+                </div>
+            </div>
+            <!-- Spinner End -->
 
-                        <a
-                            href="https://github.com/simplysubedi/simplysubedi.github.io/tree/main/assignment7">
-                            Source Code
-                        </a>
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-4 sticky-lg-top vh-100">
+                        <div
+                            class="d-flex flex-column h-100 text-center overflow-auto shadow">
+                            <img class="w-100 img-fluid mb-4"
+                                src="img/profile.jpg" alt="Image">
+                            <h1 class="text-primary mt-2">Arjun Subedi</h1>
+                            <div class="mb-4" style="height: 22px;">
+                                <h4
+                                    class="typed-text-output d-inline-block text-light"></h4>
+                                <div class="typed-text d-none">
+                                    Engineer, Web Developer, Back End Developer,
+                                    Software Designer, AWS Enthusiast</div>
+                            </div>
+                            <div
+                                class="d-flex justify-content-center mt-auto mb-3">
+
+                                <a class="btn btn-dark btn-square mx-1"
+                                    href="https://github.com/simplysubedi"><i
+                                        class="fab fa-github"></i></a>
+                                <a class="btn btn-dark btn-square mx-1"
+                                    href="https://linkedin.com/in/arjunsubedi9"><i
+                                        class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-dark btn-square mx-1"
+                                    href="#contact"><i
+                                        class="fas fa-envelope"></i></a>
+                            </div>
+                            <div
+                                class="d-flex align-items-end justify-content-between border-top">
+                                <a class="btn w-50 border-end"
+                                    href="./docs/Arjun_Subedi_Resume.pdf"
+                                    target="_blank">Download
+                                    CV</a>
+
+                                <a href="#contact" class="btn w-50 btn-scroll">Contact
+                                    Me</a>
+                            </div>
+                        </div>
                     </div>
+                    <div class="col-lg-8">
+                        <!-- About Start -->
+                        <section class="py-5 border-bottom wow fadeInUp"
+                            data-wow-delay="0.1s">
+                            <h1 class="title pb-3 mb-5">About Me</h1>
+                            <p>I'm Arjun Subedi, a dedicated Full Stack
+                                Developer based in Fairfield, Iowa, with a
+                                strong passion for building innovative and
+                                robust applications. With 3 years of
+                                professional experience, I have honed my skills
+                                in Java, JavaScript, Spring, React, Node.js, and
+                                more. I thrive in dynamic, collaborative
+                                environments and have a keen eye for detail and
+                                efficiency. Currently pursuing a Master's Degree
+                                in Computer Science, I am constantly exploring
+                                new technologies and methodologies to stay ahead
+                                in the ever-evolving tech landscape. My goal is
+                                to contribute my expertise to projects that make
+                                a meaningful impact. Let's collaborate and
+                                create something exceptional together!</p>
+                            <div class="row mb-4">
+                                <div class="col-sm-6 py-1">
+                                    <span class="fw-medium text-primary">Name:</span>
+                                    Arjun Subedi
+                                </div>
+                                <div class="col-sm-6 py-1">
+                                    <span class="fw-medium text-primary">Degree:</span>
+                                    Master's (Ongoing)
+                                </div>
+                                <div class="col-sm-6 py-1">
+                                    <span class="fw-medium text-primary">Experience:</span>
+                                    3 Years
+                                </div>
+                                <div class="col-sm-6 py-1">
+                                    <span class="fw-medium text-primary">Phone:</span>
+                                    +1 319 804 8988
+                                </div>
+                                <div class="col-sm-6 py-1">
+                                    <span class="fw-medium text-primary">Email:</span>
+                                    arjun.subedi9@outlook.com
+                                </div>
+                                <div class="col-sm-6 py-1">
+                                    <span class="fw-medium text-primary">Address:</span>
+                                    1000 N 4th Street,Fairfield, Iowa, USA
+                                </div>
+                                <div class="col-sm-6 py-1">
+                                    <span class="fw-medium text-primary">Aviability
+                                        for Work:</span>
+                                    Available
+                                </div>
+                            </div>
+                            <div class="row g-4">
+                                <div class="col-md-4 col-lg-6 col-xl-4">
+                                    <div class="d-flex bg-secondary p-4">
+                                        <h1
+                                            class="flex-shrink-0 display-5 text-primary mb-0"
+                                            data-toggle="counter-up">3</h1>
+                                        <div class="ps-3">
+                                            <p class="mb-0">Years of</p>
+                                            <h5 class="mb-0">Experience</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-lg-6 col-xl-4">
+                                    <!-- <div class="d-flex bg-secondary p-4">
+                                        <h1
+                                            class="flex-shrink-0 display-5 text-primary mb-0"
+                                            data-toggle="counter-up">100</h1>
+                                        <div class="ps-3">
+                                            <p class="mb-0">Happy</p>
+                                            <h5 class="mb-0">Clients</h5>
+                                        </div>
+                                    </div> -->
+                                </div>
+                                <div class="col-md-4 col-lg-6 col-xl-4">
+                                    <div class="d-flex bg-secondary p-4">
+                                        <h1
+                                            class="flex-shrink-0 display-5 text-primary mb-0"
+                                            data-toggle="counter-up">7</h1>
+                                        <div class="ps-3">
+                                            <p class="mb-0">Completed</p>
+                                            <h5 class="mb-0">Projects </h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- About End -->
 
-                </li>
-                <li><a
-                        href="./assignment7/assignment.pdf">QandA(Section)
-                    </a>
-                </li>
-            </ul>
+                        <!-- Skills Start -->
+                        <section class="py-5 border-bottom wow fadeInUp"
+                            data-wow-delay="0.1s">
+                            <h1 class="title pb-3 mb-5">Skills</h1>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="skill mb-4">
+                                        <div
+                                            class="d-flex justify-content-between">
+                                            <p class="mb-2">Java</p>
+                                            <p class="mb-2">85%</p>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-primary"
+                                                role="progressbar"
+                                                aria-valuenow="95"
+                                                aria-valuemin="0"
+                                                aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill mb-4">
+                                        <div
+                                            class="d-flex justify-content-between">
+                                            <p class="mb-2">Node.js</p>
+                                            <p class="mb-2">75%</p>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-warning"
+                                                role="progressbar"
+                                                aria-valuenow="85"
+                                                aria-valuemin="0"
+                                                aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill mb-4">
+                                        <div
+                                            class="d-flex justify-content-between">
+                                            <p class="mb-2">HTML</p>
+                                            <p class="mb-2">80%</p>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-danger"
+                                                role="progressbar"
+                                                aria-valuenow="90"
+                                                aria-valuemin="0"
+                                                aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill mb-4">
+                                        <div
+                                            class="d-flex justify-content-between">
+                                            <p class="mb-2">SQL</p>
+                                            <p class="mb-2">75%</p>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-danger"
+                                                role="progressbar"
+                                                aria-valuenow="90"
+                                                aria-valuemin="0"
+                                                aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill mb-4">
+                                        <div
+                                            class="d-flex justify-content-between">
+                                            <p class="mb-2">Angular</p>
+                                            <p class="mb-2">65%</p>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-danger"
+                                                role="progressbar"
+                                                aria-valuenow="90"
+                                                aria-valuemin="0"
+                                                aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="skill mb-4">
+                                        <div
+                                            class="d-flex justify-content-between">
+                                            <p class="mb-2">React</p>
+                                            <p class="mb-2">70%</p>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-danger"
+                                                role="progressbar"
+                                                aria-valuenow="90"
+                                                aria-valuemin="0"
+                                                aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill mb-4">
+                                        <div
+                                            class="d-flex justify-content-between">
+                                            <p class="mb-2">JavaScript </p>
+                                            <p class="mb-2">70%</p>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-success"
+                                                role="progressbar"
+                                                aria-valuenow="95"
+                                                aria-valuemin="0"
+                                                aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill mb-4">
+                                        <div
+                                            class="d-flex justify-content-between">
+                                            <p class="mb-2">CSS</p>
+                                            <p class="mb-2">75%</p>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-info"
+                                                role="progressbar"
+                                                aria-valuenow="85"
+                                                aria-valuemin="0"
+                                                aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill mb-4">
+                                        <div
+                                            class="d-flex justify-content-between">
+                                            <p class="mb-2">NoSQL</p>
+                                            <p class="mb-2">75%</p>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-danger"
+                                                role="progressbar"
+                                                aria-valuenow="90"
+                                                aria-valuemin="0"
+                                                aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill mb-4">
+                                        <div
+                                            class="d-flex justify-content-between">
+                                            <p class="mb-2">AWS</p>
+                                            <p class="mb-2">65%</p>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-danger"
+                                                role="progressbar"
+                                                aria-valuenow="90"
+                                                aria-valuemin="0"
+                                                aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
 
-        </li>
-        <li>Week3 Day1:
-            <ul>
-                <li><div>
-                        <a
-                            href="./assignment8">Class Inheritance
-                        </a>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- Skills End -->
 
-                        <a
-                            href="https://github.com/simplysubedi/simplysubedi.github.io/tree/main/assignment8">
-                            Source Code
-                        </a>
+                        <!-- Expericence Start -->
+                        <section class="py-5 wow fadeInUp" data-wow-delay="0.1s">
+                            <h1 class="title pb-3 mb-5">Expericence</h1>
+                            <div
+                                class="border-start border-2 border-light pt-2 ps-5">
+                                <div class="position-relative mb-4">
+                                    <span
+                                        class="bi bi-arrow-right fs-4 text-light position-absolute"
+                                        style="top: -5px; left: -50px;"></span>
+                                    <h5 class="mb-1">Associate Software Engineer</h5>
+                                    <p class="mb-2">LOGIC LYNC PVT. LTD. |
+                                        <small>2021 -
+                                            2022</small></p>
+                                    <p>Contributed to Full Stack development
+                                        role for web application team.</p>
+                                    <ul><li>Collaborated with a team of 4
+                                            developers to deliver 2 web
+                                            applications
+                                            using Spring Boot, Java, and React,
+                                            meeting all project deadlines and
+                                            achieving a 95% client satisfaction
+                                            rate.</li>
+
+                                        <li>Optimization of RESTful APIs using
+                                            Spring Boot, resulting in a 25%
+                                            reduction in API response times and
+                                            improving the overall performance of
+                                            the
+                                            applications.</li>
+                                        <li>Improved the front-end performance
+                                            by
+                                            implementing lazy loading techniques
+                                            in
+                                            React components, reducing the
+                                            initial
+                                            page load time by 40% and enhancing
+                                            user
+                                            experience.</li>
+                                        <li>Wrote automated tests for critical
+                                            functionality using JUnit and
+                                            Mockito.</li>
+                                    </ul>
+                                </div>
+                                <div class="position-relative mb-4">
+                                    <span
+                                        class="bi bi-arrow-right fs-4 text-light position-absolute"
+                                        style="top: -5px; left: -50px;"></span>
+                                    <h5 class="mb-1">Junior Software Engineer</h5>
+                                    <p class="mb-2">LOGIC LYNC PVT. LTD. |
+                                        <small>2021 </small></p>
+                                    <p>Executed end to end full stack
+                                        development to successfully deliver 5
+                                        new features.</p>
+                                    <ul><li>
+                                            Demonstrated a proactive approach to
+                                            professional growth by continuously
+                                            learning and mastering cutting-edge
+                                            tools, technologies, and best
+                                            practices,
+                                            while cultivating a strong software
+                                            engineering mindset to drive
+                                            efficient
+                                            and high-quality development
+                                            processes.</li>
+                                        <li>Implemented asynchronous processing
+                                            using ActiveMQ, resulting in a 30%
+                                            improvement in application
+                                            responsiveness and ensuring smooth
+                                            handling of high-volume requests.</li>
+                                    </ul>
+                                </div>
+                                <div class="position-relative mb-4">
+                                    <span
+                                        class="bi bi-arrow-right fs-4 text-light position-absolute"
+                                        style="top: -5px; left: -50px;"></span>
+                                    <h5 class="mb-1">Drive Test Engineer </h5>
+                                    <p class="mb-2">SUVIDHA SEWA PVT. LTD. |
+                                        <small>2019 -
+                                            2021</small></p>
+                                    <p>Collected and analyzed network
+                                        performance data for various cellular
+                                        technologies, working closely with
+                                        cross-functional teams to identify and
+                                        troubleshoot network issues, ensuring
+                                        optimal network performance and customer
+                                        satisfaction.</p>
+                                    <ul><li>Conducted drive tests for various
+                                            cellular technologies including 2G,
+                                            3G,
+                                            and 4G / LTE, by collecting and
+                                            analyzing network performance data.</li>
+
+                                        <li>Assisted in developing test plans
+                                            and
+                                            procedures for drive testing
+                                            activities,
+                                            working with cross-functional teams
+                                            to
+                                            develop and execute data validation
+                                            and
+                                            verification plans, and conducted
+                                            extensive data analysis and
+                                            reporting
+                                            using SQL queries and scripting
+                                            languages to provide insights into
+                                            network performance and drive test
+                                            data.</li>
+                                        <li>Coordinated with other engineers to
+                                            troubleshoot network issues,
+                                            supported
+                                            database administration tasks
+                                            including
+                                            database backup and recovery,
+                                            performance tuning, and query
+                                            optimization, ensuring data quality,
+                                            integrity, and availability.</li>
+                                        <li>Familiarized with software
+                                            development
+                                            practices utilizing C, C++ and Java,
+                                            HTML, CSS, and JavaScript.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- Expericence End -->
+
+                        <!-- Education Start -->
+                        <section class="py-5 wow fadeInUp" data-wow-delay="0.1s">
+                            <h1 class="title pb-3 mb-5">Education</h1>
+                            <div
+                                class="border-start border-2 border-light pt-2 ps-5">
+                                <div class="position-relative mb-4">
+                                    <span
+                                        class="bi bi-arrow-right fs-4 text-light position-absolute"
+                                        style="top: -5px; left: -50px;"></span>
+                                    <h5 class="mb-1">Masters Degree </h5>
+                                    <p class="mb-2">Maharishi International
+                                        University |
+                                        <small>2022 -
+                                            2025</small></p>
+                                    <p>Pursuing a Master of Science in Computer
+                                        Science.
+                                    </p><ul><li> Fundamental Programming
+                                            Practices </li>
+                                        <li>Modern
+                                            Programming Practices</li> <li>Web
+                                            Programming</li> <li>Modern Web
+                                            Application</li>
+                                        <li>
+                                            Enterprise Architecture
+                                        </li>
+                                        <li>Web Application Architecture</li>
+                                        <li>Algorithms</li>
+                                        <li>Cloud Computing</li>
+                                    </ul>
+
+                                </p>
+                            </div>
+                            <div class="position-relative mb-4">
+                                <span
+                                    class="bi bi-arrow-right fs-4 text-light position-absolute"
+                                    style="top: -5px; left: -50px;"></span>
+                                <h5 class="mb-1">Bachelors Degree</h5>
+                                <p class="mb-2">Nepal Engineering College |
+                                    <small>2015-2019 </small></p>
+                                <p>Pursued a Bachelor of Engineering in
+                                    Electronics and Communication
+                                    Engineering</p>
+
+                                <ul><li> Based Monitoring System for White
+                                        Button Mushroom Farming</li>
+                                    <a
+                                        href="https://www.mdpi.com/2504-3900/42/1/46"
+                                        class="btn w-50 btn-scroll">Final
+                                        Project</a>
+
+                                </ul>
+                            </div>
+
+                        </div>
+                    </section>
+                    <!-- Education End -->
+                    <!-- Blog Start -->
+                    <section class="py-5 border-bottom wow fadeInUp"
+                        data-wow-delay="0.1s">
+                        <h1 class="title pb-3 mb-5">Blog Post</h1>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="row">
+                                    <div class="col-12 text-center mb-2">
+                                        <ul class="list-inline mb-4"
+                                            id="portfolio-flters">
+                                            <li
+                                                class="btn btn-secondary active"
+                                                data-filter="*"><i
+                                                    class="fa fa-star me-2"></i>Latest
+                                                Learning
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="row portfolio-container">
+
+                                    <div
+                                        class="col-md-6 mb-4 portfolio-item first">
+                                        <!-- 1st blog -->
+                                        <div
+                                            class="position-relative overflow-hidden mb-2">
+
+                                            <img class="img-fluid w-100"
+                                                src="img/ElasticIP.png"
+                                                alt>
+                                            <div
+                                                class="portfolio-btn d-flex align-items-center justify-content-center">
+
+                                                <a
+                                                    href="https://medium.com/@send2arjunsubedi/elastic-ip-b66581b26cb6"
+                                                    target="_blank">
+                                                    Open
+                                                </a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="col-md-6 mb-4 portfolio-item first">
+                                        <div
+                                            class="position-relative overflow-hidden mb-2">
+
+                                            <img class="img-fluid w-100"
+                                                src="img/VPC.png"
+                                                alt>
+
+                                            <div
+                                                class="portfolio-btn d-flex align-items-center justify-content-center">
+                                                <a
+                                                    href="https://medium.com/@send2arjunsubedi/vpc-and-its-importance-in-aws-cloud-2c5a29ee68e2"
+                                                    target="_blank">
+                                                    Open
+                                                </a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </section>
+                    <!-- Blog End -->
+
+                    <!-- Portfolio Start -->
+                    <section class="py-5 border-bottom wow fadeInUp"
+                        data-wow-delay="0.1s">
+                        <h1 class="title pb-3 mb-5">Portfolio</h1>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="row">
+                                    <div class="col-12 text-center mb-2">
+                                        <ul class="list-inline mb-4"
+                                            id="portfolio-flters">
+                                            <li
+                                                class="btn btn-secondary active"
+                                                data-filter="*"><i
+                                                    class="fa fa-star me-2"></i>Academic</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="row portfolio-container">
+                                    <div
+                                        class="col-md-6 mb-4 portfolio-item first">
+                                        <div
+                                            class="position-relative overflow-hidden mb-2">
+                                            <a
+                                                href="https://github.com/simplysubedi/PMS"
+                                                target="_blank">
+                                                <img class="img-fluid w-100"
+                                                    src="img/property-management-system-preview.jpg"
+                                                    alt>
+
+                                                <div
+                                                    class="portfolio-btn d-flex align-items-center justify-content-center">
+                                                    <span class="project-name">Property
+                                                        Management System</span>
+
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="col-md-6 mb-4 portfolio-item second">
+                                        <div
+                                            class="position-relative overflow-hidden mb-2">
+                                            <a
+                                                href="https://github.com/simplysubedi/EA_Final-Project"
+                                                target="_blank">
+                                                <img class="img-fluid w-100"
+                                                    src="img/badge-membership-management-system.png"
+                                                    alt>
+                                                <div
+                                                    class="portfolio-btn d-flex align-items-center justify-content-center">
+                                                    <span class="project-name">
+                                                        Badge-Membership
+                                                        Management System</span>
+                                                </div>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row portfolio-container">
+                                    <div
+                                        class="col-md-6 mb-4 portfolio-item first">
+                                        <div
+                                            class="position-relative overflow-hidden mb-2">
+                                            <a
+                                                href="https://github.com/maharishi-university/final-project-mwa-g5-jobPortal"
+                                                target="_blank">
+                                                <img class="img-fluid w-100"
+                                                    src="img/job-portal-management-system.jpg"
+                                                    alt>
+                                                <div
+                                                    class="portfolio-btn d-flex align-items-center justify-content-center">
+                                                    <span class="project-name">
+                                                        Job
+                                                        Portal Management System</span>
+
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="col-md-6 mb-4 portfolio-item second">
+                                        <div
+                                            class="position-relative overflow-hidden mb-2">
+                                            <a
+                                                href="https://github.com/simplysubedi/Library-Managment-System"
+                                                target="_blank">
+                                                <img class="img-fluid w-100"
+                                                    src="img/library-management-system-preview.jpg"
+                                                    alt>
+                                                <div
+                                                    class="portfolio-btn d-flex align-items-center justify-content-center">
+                                                    <span class="project-name">Library
+                                                        Management System</span>
+
+                                                </div>
+
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Portfolio End -->
+
+                    <!-- Testimonial Start -->
+                    <!-- <section class="py-5 border-bottom wow fadeInUp"
+                            data-wow-delay="0.1s">
+                            <h1 class="title pb-3 mb-5">Testimonial</h1>
+                            <div class="owl-carousel testimonial-carousel">
+                                <div class="text-left">
+                                    <i
+                                        class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                                    <p class="fs-4 mb-4">Dolor eirmod diam stet
+                                        kasd sed. Aliqu rebum est eos. Rebum
+                                        elitr dolore et eos labore, stet justo
+                                        sed est sed. Diam sed sed dolor stet
+                                        accusam amet eirmod eos, labore diam
+                                        clita</p>
+                                    <div class="d-flex align-items-center">
+                                        <img class="img-fluid"
+                                            src="img/testimonial-1.jpg"
+                                            style="width: 60px; height: 60px;">
+                                        <div class="ps-3">
+                                            <p class="text-primary fs-5 mb-1">Client
+                                                Name</p>
+                                            <i>Profession</i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-left">
+                                    <i
+                                        class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                                    <p class="fs-4 mb-4">Dolor eirmod diam stet
+                                        kasd sed. Aliqu rebum est eos. Rebum
+                                        elitr dolore et eos labore, stet justo
+                                        sed est sed. Diam sed sed dolor stet
+                                        accusam amet eirmod eos, labore diam
+                                        clita</p>
+                                    <div class="d-flex align-items-center">
+                                        <img class="img-fluid"
+                                            src="img/testimonial-2.jpg"
+                                            style="width: 60px; height: 60px;">
+                                        <div class="ps-3">
+                                            <p class="text-primary fs-5 mb-1">Client
+                                                Name</p>
+                                            <i>Profession</i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-left">
+                                    <i
+                                        class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                                    <p class="fs-4 mb-4">Dolor eirmod diam stet
+                                        kasd sed. Aliqu rebum est eos. Rebum
+                                        elitr dolore et eos labore, stet justo
+                                        sed est sed. Diam sed sed dolor stet
+                                        accusam amet eirmod eos, labore diam
+                                        clita</p>
+                                    <div class="d-flex align-items-center">
+                                        <img class="img-fluid"
+                                            src="img/testimonial-3.jpg"
+                                            style="width: 60px; height: 60px;">
+                                        <div class="ps-3">
+                                            <p class="text-primary fs-5 mb-1">Client
+                                                Name</p>
+                                            <i>Profession</i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section> -->
+                    <!-- Testimonial End -->
+
+                    <!-- Contact Start -->
+                    <section class="py-5 wow fadeInUp" data-wow-delay="0.1s"
+                        id="contact">
+                        <h1 class="title pb-3 mb-5">Contact Me</h1>
+                        <p class="mb-4">
+                            <form id="contactForm"
+                                action="Javascript:void(0);">
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="text" name="name"
+                                                class="form-control border-0 bg-secondary"
+                                                id="name"
+                                                placeholder="Your Name">
+                                            <label for="name">Your Name</label>
+                                            <p id="errorName"></p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="email" name="email"
+                                                class="form-control border-0 bg-secondary"
+                                                id="email"
+                                                placeholder="Your Email">
+                                            <label for="email">Your Email</label>
+                                            <p id="errorEmail"></p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <input type="text"
+                                                name="subject"
+                                                class="form-control border-0 bg-secondary"
+                                                id="subject"
+                                                placeholder="Subject">
+                                            <label for="subject">Subject</label>
+                                            <p id="errorSubject"></p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <textarea name="message"
+                                                class="form-control border-0 bg-secondary"
+                                                placeholder="Leave a message here"
+                                                id="message"
+                                                style="height: 200px"></textarea>
+                                            <label for="message">Message</label>
+                                            <p id="errorMessage"></p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <p id="error-message"></p>
+                                        <p id="success"></p>
+                                        <button
+                                            class="btn btn-primary w-100 py-3"
+                                            type="submit">Send Message</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </section>
+                        <!-- Contact End -->
+
+                        <!-- Footer Start -->
+                        <section class="wow fadeIn" data-wow-delay="0.1s">
+                            <div
+                                class="bg-secondary text-light text-center p-5">
+                                <div
+                                    class="d-flex justify-content-center mb-4">
+                                    <a class="btn btn-dark btn-square mx-1"
+                                        href="https://github.com/simplysubedi"><i
+                                            class="fab fa-github"></i></a>
+                                    <a class="btn btn-dark btn-square mx-1"
+                                        href="https://linkedin.com/in/arjunsubedi9"><i
+                                            class="fab fa-linkedin-in"></i></a>
+                                    <a class="btn btn-dark btn-square mx-1"
+                                        href="#contact"><i
+                                            class="fas fa-envelope"></i></a>
+
+                                </div>
+                                <!-- <div class="d-flex justify-content-center mb-3">
+                                    <a class="text-light px-3 border-end"
+                                        href="#">Privacy</a>
+                                    <a class="text-light px-3 border-end"
+                                        href="#">Terms</a>
+                                    <a class="text-light px-3 border-end"
+                                        href="#">FAQs</a>
+                                    <a class="text-light px-3" href="#">Help</a>
+                                </div> -->
+
+                                <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                                <p class="m-0">&copy; All Rights Reserved.
+                                    Designed by <a
+                                        href="https://htmlcodex.com">HTML
+                                        Codex</a></p>
+                            </div>
+                        </section>
+                        <!-- Footer End -->
                     </div>
+                </div>
+            </div>
 
-                </li>
-            </ul>
+            <!-- Back to Top -->
+            <a href="#" class="back-to-top"><i class="fa fa-angle-double-up"></i></a>
 
-        </li>
-        <li>Week3 Day2:
-            <ul>
-                <li><div>
-                        <a
-                            href="./assignment9/cleanScreen/index.html">Clean
-                            Screen
-                        </a>
+            <!-- JavaScript Libraries -->
+            <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+            <script
+                src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+            <script src="lib/wow/wow.min.js"></script>
+            <script src="lib/typed/typed.min.js"></script>
+            <script src="lib/easing/easing.min.js"></script>
+            <script src="lib/waypoints/waypoints.min.js"></script>
+            <script src="lib/counterup/counterup.min.js"></script>
+            <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+            <script src="lib/isotope/isotope.pkgd.min.js"></script>
+            <script src="lib/lightbox/js/lightbox.min.js"></script>
 
-                        <a
-                            href="https://github.com/simplysubedi/simplysubedi.github.io/tree/main/assignment9/cleanScreen">
-                            Source Code
-                        </a>
-                    </div>
+            <!-- Contact Javascript File -->
+            <script src="js/contact.js"></script>
 
-                </li>
-            </ul>
-
-        </li>
-        <li>Week3 Day3:
-            <ul>
-                <li><div>
-                        <a>NodeJS Homework
-                        </a>
-
-                        <a
-                            href="https://github.com/simplysubedi/simplysubedi.github.io/tree/main/assignment10">
-                            Source Code
-                        </a>
-                    </div>
-
-                </li>
-            </ul>
-
-        </li>
-        <li>Week3 Day4: Express
-            <ul>
-                <li><div>
-                        <a>Express Homework
-                        </a>
-
-                        <a
-                            href="https://github.com/simplysubedi/simplysubedi.github.io/tree/main/assignment11">
-                            Source Code
-                        </a>
-                    </div>
-
-                </li>
-            </ul>
-
-        </li>
-        <li>Week3 Day5: MVC
-            <ul>
-                <li><div>
-                        <a>MVC Homework
-                        </a>
-
-                        <a
-                            href="https://github.com/simplysubedi/simplysubedi.github.io/tree/main/assignment12">
-                            Source Code
-                        </a>
-                    </div>
-
-                </li>
-            </ul>
-
-        </li>
-        <li>Week4 Day1: Session
-            <ul>
-                <li><div>
-                        <a>Session Homework
-                        </a>
-
-                        <a
-                            href="https://github.com/simplysubedi/simplysubedi.github.io/tree/main/assignment13">
-                            Source Code
-                        </a>
-                    </div>
-
-                </li>
-            </ul>
-
-        </li>
-        <li>Week4 Day2: AJAX
-            <ul>
-                <li><div>
-                        <a>AJAX Homework
-                        </a>
-
-                        <a
-                            href="https://github.com/simplysubedi/simplysubedi.github.io/tree/main/assignment14">
-                            Source Code
-                        </a>
-                    </div>
-
-                </li>
-            </ul>
-
-        </li>
-    </ul>
-    <footer>
-        <a
-            href="https://validator.w3.org/nu/?doc=https://simplysubedi.github.io"
-            target="_blank">
-            <img
-                src="https://manalabs.org/img/w3c-html.png"
-                alt="W3C validator logo"
-                />
-        </a>
-    </footer>
-</body>
+            <!-- Template Javascript -->
+            <script src="js/main.js"></script>
+        </body>
+    </html>
